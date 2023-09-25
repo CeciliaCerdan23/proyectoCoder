@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* Header y nav */
+/* Logo */
+
+.logo {
+    width: 100px;
+
+}
+
+header {
+    
+    top:0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerLeft{
+    display: flex;
+}
+
+header h1{
+    font-size: 30px;
+
+}
+header nav{
+    padding: 20px 0;
+}
+header nav ul{
+    display: flex;
+    list-style-type: none;
+}
+header nav ul li {
+    margin: 20px;
+}
+
+header nav ul a{
+    text-decoration: none;
+    color: black;
+}
+
+/* body */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+}
+
+/* imagen de portada */
+.imagenPortada{
+    width: 800px;
+    padding: 20px;
+    margin: 40px;
+    border: 1px solid black;
+}
+.portada{
+    display:flex;
+    justify-content: center;
+}
+/* Main del Inicio */
+
+h1, h2, .parrafoInicio {
+    padding: 20px;
+    text-align: center;
+} 
+.parrafoInicio{
+    font-size: 25px;
+}
+
+/* imagenes de vestidos */
+.imgVestidos {
+    width: 300px;
+    padding: 20px;
+    margin: 50px;
+    border: 1px solid black;
+}
+
+.vestidos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Texto en Ofertas */
+.descuentos{
+    width: auto;
+    height: auto;
+    background-color: rgba(214, 177, 138, 0.64) ;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 100px;
+    margin: 20px;
+}
+.vestidosCortos, .vestidosLargos{
+    width: 50%;
+    height: auto;
+    background-color: rgba(197, 146, 90, 0.64) ;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 50px 400px 50px 50px;
+    margin: 20px;
+}
+
+/* Medios de pago inicio */
+.mediosDePago{
+    display: flex;
+    justify-content: space-between;
+
+}
+.pagos{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 80px;
+    border-radius: 100px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+/* Formulario */
+
+article form ul li{
+    text-align: center;
+}
+.button{
+    text-align: center;
+}
+/* FOOTER */
+footer {
+    background-color: antiquewhite;
+    padding: 50px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.mapa{
+    width: 200px;
+    height: 200px;
+}
+
+.copyright{
+    background-color: antiquewhite;
+    text-align: center;
+    padding-bottom: 20px;
+}
