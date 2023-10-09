@@ -14,14 +14,6 @@
 
 }
 
-header {
-    
-    top:0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
 .headerLeft{
     display: flex;
 }
@@ -34,11 +26,11 @@ header nav{
     padding: 20px 0;
 }
 header nav ul{
-    display: flex;
     list-style-type: none;
 }
 header nav ul li {
     margin: 20px;
+    text-align: center;
 }
 
 header nav ul a{
@@ -121,7 +113,7 @@ h1, h2, .parrafoInicio {
 }
 .vestidosColgados {
     grid-area: vestidosColgados;
-    /* max-width: 50%; */
+    
     
 }
 .vestidosColgados img {
@@ -135,7 +127,7 @@ h1, h2, .parrafoInicio {
 }
 .telaDeSeda{
     grid-area: telaDeSeda;
-    /* max-width: 50%; */
+    
 }
 .telaDeSeda img{
     width: 90%;
@@ -145,9 +137,6 @@ h1, h2, .parrafoInicio {
 }
 
 
-
-
-
 .tiendaGridItems {
     background-color: rgba(197, 146, 90, 0.64) 
 }
@@ -155,7 +144,8 @@ h1, h2, .parrafoInicio {
 /* Medios de pago inicio */
 .mediosDePago{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
 
 }
 .pagos{
@@ -197,4 +187,21 @@ footer {
     background-color: antiquewhite;
     text-align: center;
     padding-bottom: 20px;
+}
+
+@media (min-width: 500px) {
+    
+
+}
+
+@media (min-width: 768px) {
+
+    /* .nombreLogo{ text-align: center;} */
+
+    nav ul { 
+    display: flex; 
+    flex-direction:row;
+    justify-content: space-between;
+    }
+
 }
