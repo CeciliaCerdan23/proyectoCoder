@@ -1,0 +1,18 @@
+/* Medios de pago inicio */
+.mediosDePago{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .pagos{
+        text-decoration: none;
+        background-color: black;
+        color: white;
+        width: 150px;
+        height: 80px;
+        border-radius: 100px;
+        padding: 20px;
+        margin: 20px;
+        text-align: center;
+    }
+}

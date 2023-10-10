@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+// base
+@import "./base/reset";
+@import "./base/typography";
+
+//components
+@import "./components/media";
+
+//layout
+@import "./layout/footer";
+@import "./layout/grid";
+@import "./layout/header";
+@import "./layout/mediosDePago";
+@import "./layout/navbar";
+
+//pages
+@import "./pages/formulario";
+@import "./pages/home";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+
+    nav ul { 
+    display: flex; 
+    flex-direction:row;
+    justify-content: space-between;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-around;
+    }
+
+}

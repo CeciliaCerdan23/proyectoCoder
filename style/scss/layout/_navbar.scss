@@ -1,0 +1,30 @@
+/* Logo */
+.nombreLogo {display: flex;
+}
+
+.logo {
+    width: 100px;
+
+}
+
+/* Nav bar*/
+
+header nav{
+    padding: 20px 0;
+
+    ul{
+        list-style-type: none;
+
+        li {
+            margin: 20px;
+            text-align: center;
+
+            a{
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+
+
+}

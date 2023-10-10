@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body */
+body {
+  font-family: "Poppins", sans-serif;
+  list-style-type: none;
+}
+
+/* imagenes de vestidos */
+.vestidos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.vestidos .imgVestidos {
+  width: 300px;
+  padding: 20px;
+  margin: 50px;
+  border: 1px solid black;
+}
+
+footer {
+  background-color: antiquewhite;
+  padding: 50px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+footer .mapa {
+  width: 200px;
+  height: 200px;
+}
+footer .mapa .copyright {
+  background-color: antiquewhite;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+/* Texto Ofertas */
+.tiendaGridContainer {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 1fr 3fr 3fr 3fr;
+  margin: 20px;
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
+  grid-template-areas: "descuentos descuentos" "vestidosCortos    vestidosColgados" "vestidosLargos    diezMil" "telaDeSeda        octubre";
+}
+
+.descuentos {
+  grid-area: descuentos;
+}
+
+.vestidosCortos {
+  grid-area: vestidosCortos;
+}
+
+.vestidosColgados {
+  grid-area: vestidosColgados;
+}
+
+.vestidosColgados img {
+  width: 90%;
+}
+
+.vestidosLargos {
+  grid-area: vestidosLargos;
+}
+
+.diezMil {
+  grid-area: diezMil;
+}
+
+.telaDeSeda {
+  grid-area: telaDeSeda;
+}
+
+.telaDeSeda img {
+  width: 90%;
+}
+
+.octubre {
+  grid-area: octubre;
+}
+
+.tiendaGridItems {
+  background-color: rgba(197, 146, 90, 0.64);
+}
+
+.headerLeft {
+  display: flex;
+}
+
+header h1 {
+  font-size: 30px;
+}
+
+/* Medios de pago inicio */
+.mediosDePago {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.mediosDePago .pagos {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  width: 150px;
+  height: 80px;
+  border-radius: 100px;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+/* Logo */
+.nombreLogo {
+  display: flex;
+}
+
+.logo {
+  width: 100px;
+}
+
+/* Nav bar*/
+header nav {
+  padding: 20px 0;
+}
+header nav ul {
+  list-style-type: none;
+}
+header nav ul li {
+  margin: 20px;
+  text-align: center;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Formulario */
+article form ul li {
+  text-align: center;
+}
+
+.button {
+  text-align: center;
+}
+
+/* imagen de portada */
+.imagenPortada {
+  width: 800px;
+  padding: 20px;
+  margin: 40px;
+  border: 1px solid black;
+}
+
+/* Main del Inicio */
+h1, h2, .parrafoInicio {
+  padding: 20px;
+  text-align: center;
+}
+h1 .parrafoInicio, h2 .parrafoInicio, .parrafoInicio .parrafoInicio {
+  font-size: 25px;
+}
+
+@media (min-width: 768px) {
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  footer {
+    display: flex;
+    justify-content: space-around;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,15 @@
+footer {
+  background-color: antiquewhite;
+  padding: 50px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+footer .mapa {
+  width: 200px;
+  height: 200px;
+}
+footer .mapa .copyright {
+  background-color: antiquewhite;
+  text-align: center;
+  padding-bottom: 20px;
+}/*# sourceMappingURL=-footer.css.map */

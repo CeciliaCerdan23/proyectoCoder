@@ -1,0 +1,16 @@
+/* imagen de portada */
+.imagenPortada {
+  width: 800px;
+  padding: 20px;
+  margin: 40px;
+  border: 1px solid black;
+}
+
+/* Main del Inicio */
+h1, h2, .parrafoInicio {
+  padding: 20px;
+  text-align: center;
+}
+h1 .parrafoInicio, h2 .parrafoInicio, .parrafoInicio .parrafoInicio {
+  font-size: 25px;
+}/*# sourceMappingURL=-home.css.map */
