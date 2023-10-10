@@ -189,6 +189,12 @@ article form ul li {
   border: 1px solid black;
 }
 
+.carrusel-contenedor {
+  width: 80%;
+  margin-left: 10%;
+  background-color: antiquewhite;
+}
+
 /* Main del Inicio */
 h1, h2, .parrafoInicio {
   padding: 20px;
