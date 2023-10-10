@@ -1,12 +1,9 @@
 {
-  "name": "cursocoderhouse",
+  "name": "claras-wardrobe",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [],
-  "author": "",
+  "author": "Ceci",
   "license": "ISC",
-  "description": ""
+  "description": "Curso Coderhouse Desarrollo Web"
 }

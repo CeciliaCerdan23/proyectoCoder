@@ -8,6 +8,7 @@
 }
 
 /* Nav bar*/
+$color-primary: black;
 
 header nav{
     padding: 20px 0;
@@ -21,10 +22,44 @@ header nav{
 
             a{
                 text-decoration: none;
-                color: black;
+                color: color-primary;
+
+
             }
+
         }
     }
 
 
+
+}
+
+.link {
+    color: $color-primary;
+    padding: 2px 4px;
+    display: inline-block;
+    opacity: .8;
+    transition: all .2s ease-in-out;
+
+    text-decoration: none;
+
+    &:hover {
+        opacity: 1;
+
+        &::after {
+            transform: scale3d(1, 1, 1);
+        }
+    }
+
+    &::after {
+        width: 100%;
+        height: 2px;
+        content: '';
+        display: block;
+        transform: scale3d(0, 0, 1);
+        transition: all .2s ease;
+        border-radius: 2px;
+        transform-origin: center;
+        background-color: $color-primary;
+    }
 }
