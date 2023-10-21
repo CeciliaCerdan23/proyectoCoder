@@ -46,7 +46,6 @@ body {
     display: flex;
     flex-direction: column;
     max-width: 90%;
-    transition: background-color 0.3s ease;
     margin: 25px;
     background-color: white;
     overflow: hidden;
@@ -245,7 +244,7 @@ header nav ul li a {
 }
 
 article form ul li {
-  font-size: 30px;
+  font-size: 20px;
   background-color: rgb(231, 192, 141);
   padding: 30px;
   list-style-type: none;
@@ -259,6 +258,7 @@ article form ul li {
   border-radius: 100px;
   padding: 30px;
   margin: 30px;
+  text-decoration: none;
   text-align: center;
 }
 
