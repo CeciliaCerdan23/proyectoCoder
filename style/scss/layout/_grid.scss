@@ -9,6 +9,7 @@
     font-size: 40px;
     font-weight: bolder;
     text-align: center;
+    
 
     grid-template-areas:"descuentos descuentos"
     "vestidosCortos    vestidosColgados"
@@ -22,6 +23,9 @@
 }
 .vestidosCortos {
     grid-area: vestidosCortos;
+    background-color:aquamarine;
+    align-self: center;
+
 }
 .vestidosColgados {
     grid-area: vestidosColgados;
@@ -33,9 +37,14 @@
 }
 .vestidosLargos {
     grid-area: vestidosLargos;
+    background-color: crimson;
+    align-self: center;
+    margin: 20px;
 }
 .diezMil{
     grid-area: diezMil;
+    background-color: darkmagenta;
+    align-self: center;
 }
 .telaDeSeda{
     grid-area: telaDeSeda;
@@ -46,6 +55,8 @@
 }
 .octubre{
     grid-area: octubre;
+    background-color: darksalmon;
+    align-self: center;
 }
 
 .tiendaGridItems {

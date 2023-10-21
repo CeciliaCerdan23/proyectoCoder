@@ -5,5 +5,8 @@
   "keywords": [],
   "author": "Ceci",
   "license": "ISC",
-  "description": "Curso Coderhouse Desarrollo Web"
+  "description": "Curso Coderhouse Desarrollo Web",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }

@@ -12,30 +12,54 @@ body {
 }
 
 /* imagenes de vestidos */
-.contenedor {
-  width: 100%;
-  display: flex;
+@media (max-width: 600px) {
+  .container-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    transition: background-color 0.3s ease;
+    margin: 25px;
+    background-color: white;
+    overflow: hidden;
+  }
+  .cardImg {
+    height: 80%;
+    border-radius: 25px;
+    vertical-align: middle;
+  }
+  .cardTitle {
+    text-align: center;
+  }
 }
-
-.tarjeta {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  margin: 20px;
-  border-radius: 6px;
-  overflow: hidden;
-  background: white;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
-  cursor: default;
-  transition: all 400ms ease;
+@media (min-width: 600px) {
+  .container-cards {
+    display: grid;
+    grid-template-columns: 1fr 1Fr;
+    grid-template-rows: 1fr 1Fr;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    transition: background-color 0.3s ease;
+    margin: 25px;
+    background-color: white;
+    overflow: hidden;
+  }
+  .cardImg {
+    height: 80%;
+    border-radius: 25px;
+    vertical-align: middle;
+  }
+  .cardTitle {
+    text-align: center;
+  }
 }
-
-.card:hover {
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-}
-
 footer {
   background-color: antiquewhite;
   padding: 50px;
@@ -71,6 +95,8 @@ footer .mapa {
 
 .vestidosCortos {
   grid-area: vestidosCortos;
+  background-color: aquamarine;
+  align-self: center;
 }
 
 .vestidosColgados {
@@ -83,10 +109,15 @@ footer .mapa {
 
 .vestidosLargos {
   grid-area: vestidosLargos;
+  background-color: crimson;
+  align-self: center;
+  margin: 20px;
 }
 
 .diezMil {
   grid-area: diezMil;
+  background-color: darkmagenta;
+  align-self: center;
 }
 
 .telaDeSeda {
@@ -99,6 +130,8 @@ footer .mapa {
 
 .octubre {
   grid-area: octubre;
+  background-color: darksalmon;
+  align-self: center;
 }
 
 .tiendaGridItems {
@@ -153,11 +186,10 @@ header nav ul li {
 }
 header nav ul li a {
   text-decoration: none;
-  color: color-primary;
+  color: black;
 }
 
 .link {
-  color: black;
   padding: 2px 4px;
   display: inline-block;
   opacity: 0.8;
@@ -180,6 +212,30 @@ header nav ul li a {
   border-radius: 2px;
   transform-origin: center;
   background-color: black;
+}
+
+article form ul li {
+  font-size: 30px;
+  background-color: rgb(231, 192, 141);
+  padding: 30px;
+  list-style-type: none;
+  border-radius: 5px solid black;
+}
+
+.boton {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  width: 150px;
+  height: 80px;
+  border-radius: 100px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.tablet {
+  max-width: 100%;
 }
 
 /* Formulario */

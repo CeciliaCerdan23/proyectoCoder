@@ -12,20 +12,17 @@ body {
 }
 
 /* imagenes de vestidos */
-.vestidos {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
+@media (max-width: 576px) {
+  .container-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  .card {
+    width: 80%;
+    height: 80%;
+  }
 }
-.vestidos .imgVestidos {
-  width: 300px;
-  padding: 20px;
-  margin: 50px;
-  border: 1px solid black;
-}
-
 footer {
   background-color: antiquewhite;
   padding: 50px;
@@ -147,7 +144,6 @@ header nav ul li a {
 }
 
 .link {
-  color: black;
   padding: 2px 4px;
   display: inline-block;
   opacity: 0.8;
