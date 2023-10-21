@@ -1,6 +1,70 @@
 /* Texto Ofertas */
 
+@media  (max-width:500px){
+    .tiendaGridContainer {
+        display:grid;
+        grid-template-columns: 1Fr ;
+        grid-template-rows: 1fr;
+        margin: 20px;
+        font-size: 40px;
+        font-weight: bolder;
+        text-align: center;
+        
+    
+        grid-template-areas:"descuentos descuentos"
+        "vestidosCortos    vestidosColgados"
+        "vestidosLargos    diezMil"
+        "telaDeSeda        octubre";
+    
+    }
+    
+    .descuentos{
+        grid-area: descuentos;
+    }
+    .vestidosCortos {
+        grid-area: vestidosCortos;
+        background-color:aquamarine;
+        align-self: center;
+    
+    }
+    .vestidosColgados {
+        grid-area: vestidosColgados;
+        
+        
+    }
+    .vestidosColgados img {
+        width: 90%;
+    }
+    .vestidosLargos {
+        grid-area: vestidosLargos;
+        background-color: crimson;
+        align-self: center;
+        margin: 20px;
+    }
+    .diezMil{
+        grid-area: diezMil;
+        background-color: darkmagenta;
+        align-self: center;
+    }
+    .telaDeSeda{
+        grid-area: telaDeSeda;
+        
+    }
+    .telaDeSeda img{
+        width: 90%;
+    }
+    .octubre{
+        grid-area: octubre;
+        background-color: darksalmon;
+        align-self: center;
+    }
+    
+    .tiendaGridItems {
+        background-color: rgba(197, 146, 90, 0.64) 
+    }
+}
 
+@media  (min-width:500px) {
 .tiendaGridContainer {
     display:grid;
     grid-template-columns: 2fr 2fr ;
@@ -61,4 +125,5 @@
 
 .tiendaGridItems {
     background-color: rgba(197, 146, 90, 0.64) 
+}
 }
