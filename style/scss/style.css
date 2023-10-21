@@ -88,6 +88,9 @@ footer .mapa {
   .vestidosColgados img {
     width: 90%;
   }
+  .telaDeSeda img {
+    width: 90%;
+  }
   .vestidosCortos {
     grid-area: vestidosCortos;
     background-color: aquamarine;
@@ -122,6 +125,7 @@ footer .mapa {
     font-size: 40px;
     font-weight: bolder;
     text-align: center;
+    align-items: center;
     grid-template-areas: "descuentos descuentos" "vestidosCortos    vestidosColgados" "vestidosLargos    diezMil" "telaDeSeda        octubre";
   }
   .descuentos {
