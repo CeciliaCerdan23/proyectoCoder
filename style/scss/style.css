@@ -80,28 +80,18 @@ footer .mapa {
 /* Texto Ofertas */
 @media (max-width: 500px) {
   .tiendaGridContainer {
-    display: grid;
-    grid-template-columns: 1Fr;
-    grid-template-rows: 1fr;
     margin: 20px;
     font-size: 40px;
     font-weight: bolder;
     text-align: center;
-    grid-template-areas: "descuentos descuentos" "vestidosCortos    vestidosColgados" "vestidosLargos    diezMil" "telaDeSeda        octubre";
   }
-  .descuentos {
-    grid-area: descuentos;
+  .vestidosColgados img {
+    width: 90%;
   }
   .vestidosCortos {
     grid-area: vestidosCortos;
     background-color: aquamarine;
     align-self: center;
-  }
-  .vestidosColgados {
-    grid-area: vestidosColgados;
-  }
-  .vestidosColgados img {
-    width: 90%;
   }
   .vestidosLargos {
     grid-area: vestidosLargos;
@@ -113,12 +103,6 @@ footer .mapa {
     grid-area: diezMil;
     background-color: darkmagenta;
     align-self: center;
-  }
-  .telaDeSeda {
-    grid-area: telaDeSeda;
-  }
-  .telaDeSeda img {
-    width: 90%;
   }
   .octubre {
     grid-area: octubre;
